@@ -1,0 +1,51 @@
+
+header{
+    color:blueviolet;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+div{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+}
+body{
+    background-color:aliceblue ;
+}
+
+button{
+    border-radius: 5px;
+    width: 200px;
+    color:antiquewhite;
+    background-color: black;  
+    font-size: 30px;
+}
+button:hover{
+    color:crimson;
+    cursor:pointer;
+    font-size: 35px;
+}
+input{
+    border-radius: 5px;
+    width: 200px;
+    color:antiquewhite;
+    background-color: black;  
+    font-size: 30px;
+
+}
+input:hover{
+    color:crimson;
+    cursor:pointer;
+    font-size: 35px;
+}
+p{
+    border-radius: 5px;
+    width: 200px;
+    color:antiquewhite;
+    background-color: rgb(247, 6, 6);  
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}

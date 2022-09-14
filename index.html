@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2</title>
+    <script src="./script2.js"></script>
+    <link rel="stylesheet" href="./css2.css">
+
+</head>
+<header><b style="filter: drop-shadow(0 0 3px #000);">CALCULADORA</b></header>
+<hr>
+<br>
+<body>
+    <div>
+        <span><b style="filter: drop-shadow(0 0 3px #000);">Digite o primeiro número:</b></span>
+        <input class="n1" value="" name="n1" type="text">
+        <br>
+        <span><b style="filter: drop-shadow(0 0 3px #000);">Digite o segundo número:</b></span>
+        <input class="n2" value="" name="n2" type="text"/>
+        <br><br>
+        
+        <button onclick="soma()" style="filter: drop-shadow(0 0 3px #000);">+</button>
+        
+        <button onclick="subtracao()" style="filter: drop-shadow(0 0 3px #000);">-</button>
+        <br>
+        <br> 
+        <button onclick="multiplicacao()" style="filter: drop-shadow(0 0 3px #000);">*</button>
+        
+        <button onclick="divisao()" style="filter: drop-shadow(0 0 3px #000);">/</button>
+        
+    <center>
+        <p class="resultadoSoma" style="filter: drop-shadow(0 0 3px #000);"></p>
+        <p class="resultadoSubtracao" style="filter: drop-shadow(0 0 3px #000);"></p>
+        <p class="resultadoMultiplicacao" style="filter: drop-shadow(0 0 3px #000);"></p>
+        <p class="resultadoDivisao" style="filter: drop-shadow(0 0 3px #000);"></p>
+    </center>
+    <br><br><br>  
+    <button onClick="limpar()" style="filter: drop-shadow(0 0 3px #000);">Limpar</button>  
+</body>
+</html>
