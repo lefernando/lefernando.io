@@ -1,2 +1,2 @@
 # lefernando.github.io
-Calculadora simples
+Simple calculator
