@@ -1,2 +1,2 @@
-# lefernando.io
+# lefernando.github.io
 Calculadora simples
